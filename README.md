@@ -1,5 +1,7 @@
 # Revisiting Graph Contrastive Learning on Anomaly Detection from a Structural Imbalance Perspective
 
+<img src="./framework.svg">
+
 ## Code structure
 | *folder*  |                         description                          |
 | :-------: | :----------------------------------------------------------: |
