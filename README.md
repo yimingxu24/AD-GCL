@@ -1,6 +1,6 @@
 # Revisiting Graph Contrastive Learning on Anomaly Detection from a Structural Imbalance Perspective
 
-<img src="./framework.svg">
+<img src="https://github.com/yimingxu24/AD-GCL/blob/main/framework.svg">
 
 ## Code structure
 | *folder*  |                         description                          |
