@@ -92,8 +92,6 @@ gene = Gene(nb_nodes, ft_size, 128)
 # disc = Disc(features.shape[2], 1)
 disc = Disc(128, 1)
 
-gene_optimiser = torch.optim.Adam(gene.parameters(), lr = 2e-5, weight_decay = 1e-5)
-disc_optimiser =  torch.optim.Adam(disc.parameters(), lr = 2e-5, weight_decay = 1e-5)
 bce_loss = nn.BCELoss().to(device)
 
 best_gene = copy.deepcopy(gene)
