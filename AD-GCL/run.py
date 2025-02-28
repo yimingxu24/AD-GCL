@@ -236,8 +236,8 @@ with tqdm(total=args.num_epoch) as pbar:
             
             s_matrix = torch.cat([s_matrix, mean_p.unsqueeze(1), var_p.unsqueeze(1), mean_n.unsqueeze(1), var_n.unsqueeze(1)], dim=1)
 
-            ano_sim = torch.mm(s_matrix, s_matrix.t())
-            # ano_sim = torch.sigmoid(torch.mm(s_matrix, s_matrix.t()) * 0.07)
+            # ano_sim = torch.mm(s_matrix, s_matrix.t())
+            ano_sim = torch.sigmoid(torch.mm(s_matrix, s_matrix.t()) * 0.07)
 
             loss_matrix_list = loss_matrix_list[-w:]
 
