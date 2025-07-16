@@ -49,3 +49,18 @@ python ./AD-GCL/run.py --dataset 'bitalpha' --lr 5e-3 --num_epoch 100 --threshol
 - dgl 0.4.3.post1
 - Scipy 1.9.1
 - Tqdm 4.64.1
+
+
+## Reference
+If you find this repository useful in your research, please consider citing the following paper:
+```
+@inproceedings{xu2025revisiting,
+  title={Revisiting Graph Contrastive Learning on Anomaly Detection: A Structural Imbalance Perspective},
+  author={Xu, Yiming and Peng, Zhen and Shi, Bin and Hua, Xu and Dong, Bo and Wang, Song and Chen, Chen},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={12},
+  pages={12972--12980},
+  year={2025}
+}
+```
